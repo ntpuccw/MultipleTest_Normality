@@ -1,4 +1,4 @@
-function [wmin_m pval] = multi_norm_percentile(X,m,q)
+function [wmin_m, pval] = multi_norm_percentile(X,m,q)
 % =================================================================
 % This function generates the empirical q*100 th percentile of the Wmin_m(q)
 % statistic from a set of W-tests, which contains m statistics W(X*c_i),

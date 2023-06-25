@@ -33,5 +33,5 @@ function X=multi_PearsonII(p,m,n)
     Y = randn(n,p);% n x p, independent standard normal data
     U=Y./repmat(sqrt(sum(Y.^2,2)),1,p); % n x p
     %------- generate by the Cambanis representation -------------
-    X=repmat(R,1,p).*(U*B')+repmat(mu,n,1);% n x p 
+    X=repmat(R,1,p).*(U*B')+repmat(mu,n,1);% n x p, p.110, 116
 return

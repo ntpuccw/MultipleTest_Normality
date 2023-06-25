@@ -6,7 +6,7 @@ function X=multi_PearsonVII(p,m,rho,n)
 %
 % The Multivariate Cauchy distribution is a special case of it with nu=1, i.e. m=(p+1)/2.
 %
-% syntax : X=multi_T(p,nu,rho,n)
+% syntax : X=multi_PearsonVII(p,m,rho,n)
 % 
 % inputs :
 %   p: p-variates
@@ -30,5 +30,5 @@ function X=multi_PearsonVII(p,m,rho,n)
     R=chol(Sigma);
     Z=repmat(mu,n,1) + randn(n,p)*R;
 %     Z=mvnrnd(zeros(1,p), Sigma, n);% n x p
-    S=sqrt(nu./repmat(chi2rnd(nu,n,1),1,p)); % n x p
+    S=sqrt(nu./repmat(chi2rnd(nu,n,1),1,p)); % n x p, p.118
     X=S.*Z + repmat(mu,n,1);
