@@ -8,7 +8,7 @@ Paper : <a href=http://jcsa.stat.org.tw/jcsa/data/vol61/V61N1-2.pdf>多變量常
  <li>src: 論文主程式</li>
  <ul>
   <li>prepaer_CV_from_tests.m: 計算論文式(10) 中的 C_n,h(u) 值，分別來自統計量 MK_lower, MK_upper, MS, BhS, BhL, Wmin(5)</li>
-  <li>comp_cnu.m: 計算組合統計量在 0.0001:0.0001:0.3 每個位置的關鍵值  critical values。</li>
+  <li>comp_cnu.m: 計算組合統計量在 0.0001:0.0001:0.3 每個位置的關鍵值  critical values。計算結果儲存在 new_data 目錄內以 Cnu_ 為首的檔案。</li>
   <li>compu_power: 根據不同的對立假設，計算三個多重檢定（MW, MBW, MMBB）在不同條件下的檢定力 power。 </li>
  </ul>
  <li>Tools: 論文使用的副程式：含自製與 open sources</li>
