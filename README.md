@@ -1,8 +1,7 @@
 # MultipleTestNormality
 
 Paper : <a href=http://jcsa.stat.org.tw/jcsa/data/vol61/V61N1-2.pdf>多變量常態的多重檢定實證研究</a><br>
- MATLAB codes
-陸續進行程式碼整理、分類中 ......
+ MATLAB codes: 以目錄分類
 
 <ol>
  <li>src: 論文主程式</li>
@@ -12,7 +11,7 @@ Paper : <a href=http://jcsa.stat.org.tw/jcsa/data/vol61/V61N1-2.pdf>多變量常
   <li>compu_power: 根據不同的對立假設，計算三個多重檢定（MW, MBW, MMBB）在不同條件下的檢定力 power。 計算結果儲存在目錄 new_data 以 POWER_ 為首的檔案。</li>
  </ul>
 
- <li>Presentations: 論文中的圖、表程式碼</li>
+ <li>presentations: 論文中的圖、表程式碼</li>
  <ul>
   <li>show_power.mlx:  繪製檢定力圖，如論文之圖 2 ~ 圖 6</li>
   <li>show_U_na_table.m: 計算論文表 2、表 3 的 U_n,a 值</li>
