@@ -5,6 +5,10 @@ Paper : <a href=http://jcsa.stat.org.tw/jcsa/data/vol61/V61N1-2.pdf>多變量常
 陸續進行程式碼整理、分類中 ......
 
 <ol>
+ <li>src: 論文主程式</li>
+ <ul>
+  <li>prepaer_CV_from_tests: 計算論文式(10) 中的 C_n,h(u) 值，分別來自統計量 MK_lower, MK_upper, MS, BhS, BhL, Wmin(5)</li>
+ </ul>
  <li>Tools: 論文使用的副程式：含自製與 open sources</li>
  <ul>
   <li></li>
