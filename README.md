@@ -2,10 +2,11 @@
 
 Paper : <a href=http://jcsa.stat.org.tw/jcsa/data/vol61/V61N1-2.pdf>多變量常態的多重檢定實證研究</a><br>
  MATLAB codes
-即將進行程式碼整理、分類 ~
+陸續進行程式碼整理、分類中 ......
 
 <ol>
- <li>Presentations:</li>
+ <li>Tools: 論文使用的副程式：含自製與 open sources</li>
+ <li>Presentations: 論文中的圖、表程式碼</li>
  <ul>
   <li>show_power.mlx:  繪製檢定力圖，如論文之圖 2 ~ 圖 6</li>
   <li>show_U_na_table.m: 計算論文表 2、表 3 的 U_n,a 值</li>
